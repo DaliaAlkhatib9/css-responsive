@@ -1,0 +1,233 @@
+body{
+   margin:0px 100px 0px 50px;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.left{
+    border: 1px rgb(169, 161, 161) solid;
+    margin-top: 40px;
+    width: 15%;
+}
+.head-menu{
+    height: auto;
+    background-color: rgb(127,173,57);
+    color: white;
+    padding: 10px;
+}
+.menu{
+    padding: 10px;
+
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-left: 10px;
+}
+.help-bar{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left:150px;
+}
+#help-bar-first{
+    padding: 10px;
+    margin-left: 80px;
+    
+}
+.help-bar-secoend{
+    padding: 10px;
+}
+a{
+   padding: 10px;
+}
+.help-bar2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.left-navb{
+    border:1px gray solid;
+    border-bottom: none;
+    border-left:none;
+    border-right: none;
+    
+}
+.right-navb{
+    margin: 10px;
+    display: flex;
+}
+select{
+    padding: 20px;
+    border-top: none;
+}
+input{
+    padding: 20px;
+   border: none;
+}
+.bt1{
+    padding: 20px;
+    background-color: rgb(127,173,57);
+    color: white;
+    border: none;  
+}
+.main{
+position: relative;
+width: 100%;
+}
+.text{
+    position: absolute;
+
+top: 20%;
+
+left: 10%;
+}
+.item{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+}
+.inner-item{
+    border: 1px rgb(245,245,245) solid;
+    background-color: rgb(245,245,245);
+    width: 21.7%;
+    margin-left: 10px;
+}
+.box{
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin-left: 30px;
+}
+.div1{
+    color: rgb(127,173,57);
+}
+.div2{
+    font-size: 70px;
+    font-weight: bolder;
+    width: 60%;
+}
+.bt2{
+    border: none;
+    background-color: rgb(127,173,57);
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    width: 120px;
+}
+@media only screen and (max-width: 1000px) {
+    body{
+        margin: 0;
+    }
+  
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        
+    }
+    .left{
+        width: 90%;
+        margin: 0;
+        
+    }
+    .help-bar{
+        display: flex;
+        flex-direction: column;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .active {
+        background-color: rgb(127,173,57);
+        color: white;
+      }
+    .help-bar{
+        margin: 0;
+        width: 100%;
+    }
+    .help-bar-secoend{
+        text-align: center;
+        margin-left: 0;
+    }
+    #help-bar-first{
+        margin: 0;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    select{
+        display: none;
+    }
+    .help-bar2{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-navb{
+        margin: 0;
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .inner-item{
+        width: 90%;
+        margin-top: 20px;
+    }
+    .main{
+        width: 100%;
+    }
+    .div2{
+        font-size: 50px;
+    }
+    .help-bar2{
+        width: 90%;
+    }
+  
+   
+}

@@ -1,0 +1,474 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color:#00adbc;
+    display: flex;
+}
+.logo img{
+    margin: 5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .nav2 .button{
+    color: white;
+    background-color: #00adbc;
+    border: 1px solid white;
+    
+   
+  }
+  .button{
+    margin-top:10px;
+   display: flex;
+    width: 150px;
+    height: 50px;
+    margin-left: 1000px;
+    justify-content: center;   
+    
+  }
+  .contant {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+
+  }
+  .photo {
+    width: 50%;
+    
+}
+.text{
+
+    background-color:#ffdfa1;
+    width: 50%;
+ }
+ .cont2 .one {
+    border: 1px;
+    width: 500px;
+    
+
+ }
+ .cont2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+}
+.par{
+    line-height: 0.5;
+}
+.big-img1{
+    width: 300px;
+    height: 400px;
+text-align: center;
+}
+.big-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+}
+.card1{
+
+    backface-visibility: hidden;
+
+    width: 300px;
+    height:200px;
+    text-align: center;
+    background-color: #bdc326;
+    position: absolute;
+    margin-top: -20px;
+
+}
+.boxes{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+  
+  }
+
+  .imgbox{
+    width: 20%;
+    height: 175px;
+  }
+
+  .color{
+    background-color: rgb(5, 164, 178, 1);
+  }
+
+  .big-img1{
+width: 300px;
+height: 400px;
+text-align: center;
+}
+.big-img{
+display: flex;
+flex-direction: row;
+justify-content: center;
+justify-content: space-around;
+position: relative;
+}
+.card1{
+
+backface-visibility: hidden;
+
+width: 300px;
+height:200px;
+text-align: center;
+background-color: rgb(209, 213, 103, 0.5);
+position: absolute;
+margin-top: -20px;
+
+}
+
+.card2{
+
+backface-visibility: hidden;
+
+width: 300px;
+height:200px;
+text-align: center;
+background-color: rgb(89, 185, 220, 0.5);
+position: absolute;
+margin-top: -20px;
+
+}
+
+.card3{
+
+backface-visibility: hidden;
+
+width: 300px;
+height:200px;
+text-align: center;
+background-color: rgb(116, 99, 152, 0.5);
+position: absolute;
+margin-top: -20px;
+
+}
+
+.card4{
+
+backface-visibility: hidden;
+
+width: 300px;
+height:200px;
+text-align: center;
+background-color: rgb(5, 164, 178, 0.5);
+position: absolute;
+margin-top: -20px;
+
+}
+
+.smallImg{
+width: 200px;
+height: 150px;
+}
+.line{
+    color: white;
+    background-color: orange;
+    height: 30px;
+}
+.smallimage{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(41, 47, 54);
+    
+}
+
+.footT{
+padding-left: 400px;
+padding-top: 15px;
+
+}
+
+
+.language{
+    width: 90px;
+    height: 20px;
+    margin-left: 90px;
+}
+
+.small-p{
+    margin-left: 100px;
+    color: white;
+    font-size: 15px;
+}
+
+.footB{
+    font-size: 10px;
+    color: white;
+    line-height: 1.5;
+    padding-left: 400px;
+}
+
+.logo2{
+    height: 40px;
+    padding-left: 400px;
+    padding-top: 10px;
+}
+@media only screen and (max-width:907px) {
+.smallimage{
+    flex-wrap: wrap;
+}
+ .big-img{
+
+    flex-wrap: wrap;
+ }   
+}
+@media only screen and (max-width:1000px) {
+  .navbar{
+    width: 100%;
+    height: 70px;
+    background-color:#00adbc;
+    display: flex;
+}
+.logo img{
+    margin: 5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .nav2 .button{
+    color: white;
+    background-color: #00adbc;
+    border: 1px solid white;
+    
+   
+  }
+  .button{
+    margin-top:10px;
+   display: flex;
+    width: 150px;
+    height: 50px;
+    margin-left: 1000px;
+    justify-content: end;   
+    
+  }
+  .contant {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+
+  }
+  .photo {
+    width: 50%;
+    
+}
+.text{
+
+    background-color:#ffdfa1;
+    width: 50%;
+ }
+ .cont2 .one {
+    border: 1px;
+    width: 500px;
+    
+
+ }
+ .cont2{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    justify-content: space-between;
+}
+.par{
+    line-height: 0.5;
+}
+.big-img1{
+    width: 300px;
+    height: 400px;
+text-align: end;
+}
+.big-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    justify-content: space-around;
+    position: relative;
+}
+.card1{
+
+    backface-visibility: hidden;
+
+    width: 300px;
+    height:200px;
+    text-align: end;
+    background-color: #bdc326;
+    position: absolute;
+    margin-top: -20px;
+
+}
+.boxes{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+  
+  }
+
+  .imgbox{
+    width: 20%;
+    height: 175px;
+  }
+
+  .color{
+    background-color: rgb(5, 164, 178, 1);
+  }
+
+  .big-img1{
+width: 300px;
+height: 400px;
+text-align: center;
+}
+.big-img{
+display: flex;
+flex-direction:column;
+justify-content: end;
+justify-content: space-around;
+position: relative;
+}
+.card1{
+
+backface-visibility: hidden;
+
+width: 300px;
+height:200px;
+text-align: end;
+background-color: rgb(209, 213, 103, 0.5);
+position: absolute;
+margin-top: -20px;
+
+}
+
+.card2{
+
+backface-visibility: hidden;
+
+width: 300px;
+height:200px;
+text-align: end;
+background-color: rgb(89, 185, 220, 0.5);
+position: absolute;
+margin-top: -20px;
+
+}
+
+.card3{
+
+backface-visibility: hidden;
+
+width: 300px;
+height:200px;
+text-align: end;
+background-color: rgb(116, 99, 152, 0.5);
+position: absolute;
+margin-top: -20px;
+
+}
+
+.card4{
+
+backface-visibility: hidden;
+
+width: 300px;
+height:200px;
+text-align: end;
+background-color: rgb(5, 164, 178, 0.5);
+position: absolute;
+margin-top: -20px;
+
+}
+
+.smallImg{
+width: 200px;
+height: 150px;
+}
+.line{
+    color: white;
+    background-color: orange;
+    height: 30px;
+}
+.smallimage{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(41, 47, 54);
+    
+}
+
+.footT{
+padding-left: 400px;
+padding-top: 15px;
+
+}
+
+
+.language{
+    width: 90px;
+    height: 20px;
+    margin-left: 90px;
+}
+
+.small-p{
+    margin-left: 100px;
+    color: white;
+    font-size: 15px;
+}
+
+.footB{
+    font-size: 10px;
+    color: white;
+    line-height: 1.5;
+    padding-left: 400px;
+}
+
+.logo2{
+    height: 40px;
+    padding-left: 400px;
+    padding-top: 10px;
+}}

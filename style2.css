@@ -1,0 +1,185 @@
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+  border: none;
+  box-shadow: rgba(77, 77, 216, 0.25) 0px 13px 27px -5px, rgba(219, 227, 7, 0.3) 0px 8px 16px -8px;
+}
+
+nav{float:right;}
+
+.logo img{float:left;}
+
+ul li{
+  display: inline-block; padding:10px;
+  font-size:20px; font-family:raleway;
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+.main{
+    margin: 5px;
+    border: 1px rgb(187, 181, 181) solid;
+    width: 100%;
+    height: auto;
+}
+.menu{
+    padding: 10px;
+    display: flex;
+    background-color: rgb(13, 191, 54);
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bor{
+    border: none;
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+    width: 100px;
+    text-align: center;
+}
+.bor1{
+    border: none;
+    background: rgb(240,239,220);
+background: linear-gradient(90deg, rgba(240,239,220,1) 0%, rgba(132,77,10,1) 35%, rgba(255,179,0,1) 100%);
+    padding: 10px;
+    margin-left: 10px;
+    width: 100px;
+    text-align: center;
+}
+.main-2{
+    display: flex;
+    width: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.lefttop{
+    display: flex;
+    width: 100%;
+}
+.box{
+    border: none;
+    padding: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(19, 200, 49);
+    margin: 30px;
+}
+.rev{
+    margin: 30px;
+}
+.rev1{
+    margin-top: 5px;
+}
+.pic{
+    margin: 20px;
+    display: flex;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+input{
+    margin: 20px;
+    border-color: rgb(190, 182, 182);
+    padding: 10px;
+    width: auto;
+}
+@media only screen and (max-width: 750px) {
+    body{
+        margin: 0;
+    }
+    .main-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .lefttop{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .box{
+        width: auto;
+    }
+    .main{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .active {
+        background-color: #04AA6D;
+        color: white;
+      }
+      .menu{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+      }
+      .lll{
+        
+        width: 90%;
+      }
+      .pic{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+      }
+      .tex{
+        width: 90%;
+      }
+        .form{
+            width: 90%;
+        }
+
+}
